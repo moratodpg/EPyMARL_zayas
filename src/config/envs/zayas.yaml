@@ -1,0 +1,20 @@
+env: "struct_zayas"
+
+env_args:
+  n_comp: 22
+  discount_reward: 0.95
+  state_obs: True
+  state_d_rate: True
+  obs_d_rate: True
+  obs_multiple: False
+  obs_all_d_rate: False
+  campaign_cost: False
+  map_name: null
+
+test_greedy: True
+test_nepisode: 100
+test_interval: 50000
+log_interval: 50000
+runner_log_interval: 10000
+learner_log_interval: 10000
+t_max: 2050000
