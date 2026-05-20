@@ -141,6 +141,9 @@ class StructZayasWrapper(MultiAgentEnv):
         action_dict = {
             k: action for k, action in zip(self.struct_env.agent_list, actions)
         }
+
+        ## sample instead of computing the VoI in closed form (~ 25 samples)
+        ## inspector networks ... (same critic: b'...)
         _, rewards, done, _ = self.struct_env.step(action_dict)
 
         if self.common_reward:

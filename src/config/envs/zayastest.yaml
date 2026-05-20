@@ -1,0 +1,24 @@
+env: "struct_zayas"
+
+env_args:
+  n_comp: 22
+  discount_reward: 0.95
+  state_obs: True
+  state_d_rate: True
+  obs_d_rate: True
+  obs_multiple: False
+  obs_all_d_rate: False
+  campaign_cost: False
+  map_name: null
+
+test_greedy: True
+save_model: True
+test_nepisode: 2
+test_interval: 50000
+log_interval: 50000
+runner_log_interval: 10000
+learner_log_interval: 10000
+t_max: 3050000
+evaluate: True
+checkpoint_path: "/Users/pablogmorato/coding/epymarl/results/models/qmix_seed455071770_None_2026-05-14 14:22:59.080835"
+# load_step: 2900050

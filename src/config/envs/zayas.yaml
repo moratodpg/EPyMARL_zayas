@@ -12,9 +12,10 @@ env_args:
   map_name: null
 
 test_greedy: True
+save_model: True
 test_nepisode: 1000
 test_interval: 50000
 log_interval: 50000
 runner_log_interval: 10000
 learner_log_interval: 10000
-t_max: 2050000
+t_max: 3050000
